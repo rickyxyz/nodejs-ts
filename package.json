@@ -1,7 +1,8 @@
 {
   "name": "nodejs-ts",
   "version": "1.0.0",
-  "description": "",
+  "private": "true",
+  "description": "Node.Js with Typescript template",
   "main": "./dist/index.js",
   "scripts": {
     "build": "npx tsc",
@@ -13,7 +14,11 @@
   },
   "keywords": [
     "nodejs",
-    "typescript"
+    "typescript",
+    "jest",
+    "eslint",
+    "prettier",
+    "lefthook"
   ],
   "author": "rickyxyz",
   "license": "ISC",
@@ -36,5 +41,13 @@
     "prettier": "^3.1.0",
     "ts-jest": "^29.1.1",
     "typescript": "^5.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickyxyz/nodejs-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rickyxyz/nodejs-ts/issues"
+  },
+  "homepage": "https://github.com/rickyxyz/nodejs-ts#readme"
 }
