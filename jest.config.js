@@ -1,5 +1,6 @@
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
+  testMatch: ['**/*.test.ts', '**/*.test.tsx', '**/*.test.js', '**/*.test.jsx', '!./tests/e2e/*.spec.ts'],
   preset: 'ts-jest',
   testEnvironment: 'jest-environment-jsdom',
   transform: {
