@@ -7,7 +7,7 @@ Tooling:
 - TypeScript
 - ESLint
 - Prettier
-- Jest
+- TS-Jest
 - Lefthook
 - Nodemon
 - Concurrently
